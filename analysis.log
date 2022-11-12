@@ -1,0 +1,80 @@
+2022-11-12 12:08:17,473 :: [source_destination] :: [INFO] :: Started to read file E:\Upwork\Ashok\Find_Subsets\Consolidate_IPs\overlapping IP.csv
+2022-11-12 12:08:17,480 :: [source_destination] :: [INFO] :: Working on the row no : 2
+2022-11-12 12:08:17,480 :: [source_destination] :: [INFO] :: Comparing TEST_LAN against 10.74.2.0/24
+2022-11-12 12:08:17,481 :: [source_destination] :: [INFO] :: Comparing 10.74.2.0/24 against 10.2.74.0/24
+2022-11-12 12:08:17,482 :: [source_destination] :: [INFO] :: Comparing 10.74.2.0/24 against 10.74.6.0/2410.74.20.0/24
+2022-11-12 12:08:17,483 :: [source_destination] :: [INFO] :: Removing 10.74.6.0/2410.74.20.0/24 and ['10.2.74.0/24', '10.74.3.0/24', '10.74.18.0/24', 'GRP_NJA_LAN', '10.41.3.0/24']
+2022-11-12 12:08:17,483 :: [source_destination] :: [INFO] :: Comparing 10.74.2.0/24 against 10.74.3.0/24
+2022-11-12 12:08:17,483 :: [source_destination] :: [INFO] :: Comparing 10.74.2.0/24 against 10.74.18.0/24
+2022-11-12 12:08:17,487 :: [source_destination] :: [INFO] :: Comparing 10.74.2.0/24 against GRP_NJA_LAN
+2022-11-12 12:08:17,487 :: [source_destination] :: [INFO] :: Removing GRP_NJA_LAN and ['10.2.74.0/24', '10.74.3.0/24', '10.74.18.0/24', '10.41.3.0/24']
+2022-11-12 12:08:17,488 :: [source_destination] :: [INFO] :: Comparing 10.74.2.0/24 against 10.41.3.0/24
+2022-11-12 12:08:17,489 :: [source_destination] :: [INFO] :: Adding 10.74.2.0/24 to eligible list
+2022-11-12 12:08:17,490 :: [source_destination] :: [INFO] :: Comparing 10.2.74.0/24 against 10.74.3.0/24
+2022-11-12 12:08:17,491 :: [source_destination] :: [INFO] :: Comparing 10.2.74.0/24 against 10.74.18.0/24
+2022-11-12 12:08:17,492 :: [source_destination] :: [INFO] :: Comparing 10.2.74.0/24 against 10.41.3.0/24
+2022-11-12 12:08:17,492 :: [source_destination] :: [INFO] :: Adding 10.2.74.0/24 to eligible list
+2022-11-12 12:08:17,493 :: [source_destination] :: [INFO] :: Comparing 10.74.3.0/24 against 10.74.18.0/24
+2022-11-12 12:08:17,493 :: [source_destination] :: [INFO] :: Comparing 10.74.3.0/24 against 10.41.3.0/24
+2022-11-12 12:08:17,494 :: [source_destination] :: [INFO] :: Adding 10.74.3.0/24 to eligible list
+2022-11-12 12:08:17,495 :: [source_destination] :: [INFO] :: Comparing 10.74.18.0/24 against 10.41.3.0/24
+2022-11-12 12:08:17,496 :: [source_destination] :: [INFO] :: Adding 10.74.18.0/24 to eligible list
+2022-11-12 12:08:17,499 :: [source_destination] :: [INFO] :: Working on the row no : 3
+2022-11-12 12:08:17,499 :: [source_destination] :: [INFO] :: Comparing 10.60.26.104 against 10.60.30.102
+2022-11-12 12:08:17,500 :: [source_destination] :: [ERROR] :: argument of type 'IPAddress' is not iterable
+2022-11-12 12:08:17,585 :: [source_destination] :: [INFO] :: Comparing 10.60.26.104 against 10.60.27.164
+2022-11-12 12:08:17,722 :: [source_destination] :: [ERROR] :: argument of type 'IPAddress' is not iterable
+2022-11-12 12:08:17,778 :: [source_destination] :: [INFO] :: Comparing 10.60.26.104 against 10.60.30.101
+2022-11-12 12:08:17,882 :: [source_destination] :: [ERROR] :: argument of type 'IPAddress' is not iterable
+2022-11-12 12:08:17,927 :: [source_destination] :: [INFO] :: Adding 10.60.26.104 to eligible list
+2022-11-12 12:08:17,934 :: [source_destination] :: [INFO] :: Comparing 10.60.30.102 against 10.60.27.164
+2022-11-12 12:08:17,976 :: [source_destination] :: [ERROR] :: argument of type 'IPAddress' is not iterable
+2022-11-12 12:08:17,981 :: [source_destination] :: [INFO] :: Comparing 10.60.30.102 against 10.60.30.101
+2022-11-12 12:08:17,982 :: [source_destination] :: [ERROR] :: argument of type 'IPAddress' is not iterable
+2022-11-12 12:08:17,983 :: [source_destination] :: [INFO] :: Adding 10.60.30.102 to eligible list
+2022-11-12 12:08:18,030 :: [source_destination] :: [INFO] :: Comparing 10.60.27.164 against 10.60.30.101
+2022-11-12 12:08:18,031 :: [source_destination] :: [ERROR] :: argument of type 'IPAddress' is not iterable
+2022-11-12 12:08:18,033 :: [source_destination] :: [INFO] :: Adding 10.60.27.164 to eligible list
+2022-11-12 12:08:18,083 :: [source_destination] :: [INFO] :: Working on the row no : 4
+2022-11-12 12:08:18,141 :: [source_destination] :: [INFO] :: Comparing TEST against 10.36.100.0/24
+2022-11-12 12:08:18,143 :: [source_destination] :: [INFO] :: Comparing 10.36.100.0/24 against Transist
+2022-11-12 12:08:18,144 :: [source_destination] :: [INFO] :: Removing Transist and ['10.2.230.16/29', 'Users', '10.36.18.0/24', '10.38.36.0/24', '10.36.6.0/24']
+2022-11-12 12:08:18,144 :: [source_destination] :: [INFO] :: Comparing 10.36.100.0/24 against 10.2.230.16/29
+2022-11-12 12:08:18,152 :: [source_destination] :: [INFO] :: Comparing 10.36.100.0/24 against Users
+2022-11-12 12:08:18,202 :: [source_destination] :: [INFO] :: Removing Users and ['10.2.230.16/29', '10.36.18.0/24', '10.38.36.0/24', '10.36.6.0/24']
+2022-11-12 12:08:18,254 :: [source_destination] :: [INFO] :: Comparing 10.36.100.0/24 against 10.36.18.0/24
+2022-11-12 12:08:18,256 :: [source_destination] :: [INFO] :: Comparing 10.36.100.0/24 against 10.38.36.0/24
+2022-11-12 12:08:18,257 :: [source_destination] :: [INFO] :: Comparing 10.36.100.0/24 against 10.36.6.0/24
+2022-11-12 12:08:18,258 :: [source_destination] :: [INFO] :: Adding 10.36.100.0/24 to eligible list
+2022-11-12 12:08:18,258 :: [source_destination] :: [INFO] :: Comparing 10.2.230.16/29 against 10.36.18.0/24
+2022-11-12 12:08:18,259 :: [source_destination] :: [INFO] :: Comparing 10.2.230.16/29 against 10.38.36.0/24
+2022-11-12 12:08:18,260 :: [source_destination] :: [INFO] :: Comparing 10.2.230.16/29 against 10.36.6.0/24
+2022-11-12 12:08:18,261 :: [source_destination] :: [INFO] :: Adding 10.2.230.16/29 to eligible list
+2022-11-12 12:08:18,261 :: [source_destination] :: [INFO] :: Comparing 10.36.18.0/24 against 10.38.36.0/24
+2022-11-12 12:08:18,263 :: [source_destination] :: [INFO] :: Comparing 10.36.18.0/24 against 10.36.6.0/24
+2022-11-12 12:08:18,263 :: [source_destination] :: [INFO] :: Adding 10.36.18.0/24 to eligible list
+2022-11-12 12:08:18,265 :: [source_destination] :: [INFO] :: Comparing 10.38.36.0/24 against 10.36.6.0/24
+2022-11-12 12:08:18,266 :: [source_destination] :: [INFO] :: Adding 10.38.36.0/24 to eligible list
+2022-11-12 12:08:18,270 :: [source_destination] :: [INFO] :: Working on the row no : 5
+2022-11-12 12:08:18,315 :: [source_destination] :: [INFO] :: Comparing 10.2.5.6 against 10.2.5.0/24
+2022-11-12 12:08:18,366 :: [source_destination] :: [INFO] :: Comparing 10.2.5.0/24 against 10.2.5.8
+2022-11-12 12:08:18,374 :: [source_destination] :: [INFO] :: Comparing 10.2.5.0/24 against 10.3.7.6
+2022-11-12 12:08:18,375 :: [source_destination] :: [INFO] :: Comparing 10.2.5.0/24 against 10.3.7.15-10.3.7.18
+2022-11-12 12:08:18,376 :: [source_destination] :: [INFO] :: Comparing 10.2.5.0/24 against helloip
+2022-11-12 12:08:18,376 :: [source_destination] :: [INFO] :: Removing helloip and ['10.3.7.6', '10.3.7.15-10.3.7.18', '10.2.4.0/16', '10.3.7.17']
+2022-11-12 12:08:18,377 :: [source_destination] :: [INFO] :: Comparing 10.2.5.0/24 against 10.2.4.0/16
+2022-11-12 12:08:18,378 :: [source_destination] :: [INFO] :: Comparing 10.3.7.6 against 10.3.7.15-10.3.7.18
+2022-11-12 12:08:18,379 :: [source_destination] :: [ERROR] :: argument of type 'IPAddress' is not iterable
+2022-11-12 12:08:18,380 :: [source_destination] :: [INFO] :: Comparing 10.3.7.6 against 10.2.4.0/16
+2022-11-12 12:08:18,381 :: [source_destination] :: [ERROR] :: argument of type 'IPAddress' is not iterable
+2022-11-12 12:08:18,381 :: [source_destination] :: [INFO] :: Comparing 10.3.7.6 against 10.3.7.17
+2022-11-12 12:08:18,382 :: [source_destination] :: [ERROR] :: argument of type 'IPAddress' is not iterable
+2022-11-12 12:08:18,383 :: [source_destination] :: [INFO] :: Adding 10.3.7.6 to eligible list
+2022-11-12 12:08:18,436 :: [source_destination] :: [INFO] :: Comparing 10.3.7.15-10.3.7.18 against 10.2.4.0/16
+2022-11-12 12:08:18,448 :: [source_destination] :: [INFO] :: Comparing 10.3.7.15-10.3.7.18 against 10.3.7.17
+2022-11-12 12:08:18,451 :: [source_destination] :: [INFO] :: Adding 10.3.7.15-10.3.7.18 to eligible list
+2022-11-12 12:08:18,524 :: [source_destination] :: [INFO] :: Working on the row no : 6
+2022-11-12 12:08:18,577 :: [source_destination] :: [INFO] :: Comparing 10.10.0.0/16 against 10.10.21.2
+2022-11-12 12:08:18,578 :: [source_destination] :: [INFO] :: Comparing 10.10.0.0/16 against 10.20.10.10
+2022-11-12 12:08:18,579 :: [source_destination] :: [INFO] :: Comparing 10.10.0.0/16 against 10.10.20.0/24
+2022-11-12 12:08:18,580 :: [source_destination] :: [INFO] :: Adding 10.10.0.0/16 to eligible list
